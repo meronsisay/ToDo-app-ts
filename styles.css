@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    width: 40%;
+}
+form input, form button{
+    
+    height: 30px;
+}
+form button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(122, 74, 74);
+    color: white;
+}
+.tasks ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    margin: 0 auto;
+}
+.task{
+  
+    border-radius: 10px;
+    padding: 8px;
+  
+    background-color:rgb(243, 235, 235);
+    
+}
+.task span{
+    margin-right: 40px;
+}
+.task button{
+    margin: 0 7px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+   
+}
+
+.task .del{
+    background-color: rgb(175, 81, 81);
+    color: wheat;
+}
+.task .edit{
+    background-color: rgb(210, 210, 135);
+}
